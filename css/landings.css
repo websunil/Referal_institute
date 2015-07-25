@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('../fonts/bariol_regular-webfont.eot');
+    src: url('../fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bariol_regular-webfont.woff') format('woff'),
+         url('../fonts/bariol_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {background-color:#cfcece; font-family: 'bariol_regularregular'; font-size:1.14em; height:100%;}
+
+.main_container {width:100%; max-width:420px; margin:auto; min-width:364px;}
+
+.header {width:100%; height:35px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#444444+0,2a2a2a+100 */
+background: #444444; /* Old browsers */
+background: -moz-linear-gradient(top,  #444444 0%, #2a2a2a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(100%,#2a2a2a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #444444 0%,#2a2a2a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #444444 0%,#2a2a2a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #444444 0%,#2a2a2a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #444444 0%,#2a2a2a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#2a2a2a',GradientType=0 ); /* IE6-9 */ top:0px;}
+
+.head_list {padding-top:4px; margin:auto; margin-left:6%; width:80%;}
+
+.head_list ul {margin:0px; padding:0px; list-style:none;}
+
+.head_list ul li {display:inline; list-style:none; margin-right:15%; float:left; color:#FFF; margin-left:2%;}
+
+.head_list ul li .main_fsty {padding-top:6px; font-size:1.2em; font-weight:bold; margin-right:10%;}
+
+.round_picture {border-radius:50%;}
+
+.main_body {width:85%; margin:auto;}
+
+.main_landing {width:100%; margin-top:30px; margin-left:5%;}
+
+.main_landing ul {margin:0px; padding:0px; list-style:none;}
+
+.main_landing ul li {margin:0px; padding:0px; list-style:none; float:left;}
+
+.main_landing ul li a {border:0px; width:127px; margin-right:50px; display:inline;}
+
+.main_landing ul li a:hover {}
+
+.head_green {width:100%; height:32px; padding-top:8px; text-align:center; font-size:1em; color:#FFF; background-color:#108961; margin-top:7px;}
+
+.arrow {clear:both; width:19px; height:11px; margin:auto;}
+
+.white_bodycont {width:90%; padding:5%; background-color:#FFF; height:340px; overflow:auto;}
+
+.score_list ul {margin:0px; padding:0px; list-style:none;}
+
+.score_list ul li {margin:0px; padding:0px; list-style:none; float:left; display:inline; padding-top:10px; padding-bottom:10px; border-bottom:1px solid #bdbdbd;}
