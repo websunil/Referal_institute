@@ -3,18 +3,15 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.ryanw.barcodedemo"
         version   = "2.0.0">
-    <name>Fin-sales Mobile</name>
+    <name>Referal Institute</name>
 
     <description>
-        Fossil sales taking stock of a store
+        Score Taking app for referal institute
     </description>
 
-    <author href="http://a1s.in" email="websunil@a1s.in">
+    <author href="http://a1s.in" email="kiran.p@a1s.in">
         PhoneGap Team
     </author>
-
-    <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
-
 
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="debug-server" required="true">
