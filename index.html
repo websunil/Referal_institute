@@ -2732,7 +2732,7 @@ function handleLogin() {
    
    
 		$.ajax({
-    url: "authintication.php",
+    url: "http://referalinst.co.in/authintication.php",
     type: 'POST',
     data: {emails: e, passwords :p},
     dataType: 'json',
@@ -2881,7 +2881,7 @@ function add_user() {
 		var dname = document.getElementById('dname').value;
 
 		$.ajax({
-    url: "ref_subuser.php",
+    url: "http://referalinst.co.in/ref_subuser.php",
     type: 'POST',
     data: {duname : duname, dpassword : dpassword, usermail : usermail, dname : dname},
     dataType: 'json',
@@ -2909,7 +2909,7 @@ function add_user() {
 	 		
 
 		$.ajax({
-    url: "updatepass.php",
+    url: "http://referalinst.co.in/updatepass.php",
     type: 'POST',
     data: {new_pwd : new_pwd, conf_pwd : conf_pwd, cur_pwd : cur_pwd, uid : uid},
     dataType: 'json',
@@ -2940,7 +2940,7 @@ function add_user() {
 			
 	
 		$.ajax({
-    url: "addsubjectscore.php",
+    url: "http://referalinst.co.in/addsubjectscore.php",
     type: 'POST',
     data: {date: date, subid : subid,  number : number, uid : uid, batchid : batchid},
     dataType: 'json',
@@ -2973,8 +2973,7 @@ function addscore() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    url: "http://referalinst.co.in/addnewviewscore.php",
 	
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid,  number : number, subid : subid, subsubid : subsubid, dates : dates},
@@ -3004,8 +3003,8 @@ function addscore1() {
 		var subsubid = '2';
 
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points, uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates },
     dataType: 'json',
@@ -3035,8 +3034,7 @@ function addscore2() {
 		var subsubid = '3';
 
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points, uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3065,8 +3063,7 @@ function addscore3() {
 		var subid = '1';
 		var subsubid = '4';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points, uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3095,8 +3092,7 @@ function addscore4() {
 		var subsubid = '5';
 		
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3126,8 +3122,7 @@ function addscore5() {
 		var subsubid = '6';
 		
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3157,8 +3152,7 @@ function addscore6() {
 		var subsubid = '7';
 		
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3188,8 +3182,7 @@ function addscore7() {
 		var subsubid = '8';
 		
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3218,8 +3211,8 @@ function addscore8() {
 		var subsubid = '9';
 		
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3248,8 +3241,8 @@ function addscore9() {
 		var subid = '4';
 		var subsubid = '10';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3277,8 +3270,8 @@ function addscore10() {
 		var subid = '5';
 		var subsubid = '11';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3306,8 +3299,8 @@ function addscore11() {
 		var subid = '6';
 		var subsubid = '12';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3335,8 +3328,8 @@ function addscore12() {
 		var subid = '7';
 		var subsubid = '13';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3364,8 +3357,8 @@ function addscore13() {
 		var subid = '7';
 		var subsubid = '14';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3393,8 +3386,8 @@ function addscore14() {
 		var subid = '7';
 		var subsubid = '15';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3422,8 +3415,8 @@ function addscore15() {
 		var subid = '7';
 		var subsubid = '16';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3451,8 +3444,8 @@ function addscore16() {
 		var subid = '7';
 		var subsubid = '17';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3480,8 +3473,8 @@ function addscore17() {
 		var subid = '7';
 		var subsubid = '18';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3509,8 +3502,8 @@ function addscore18() {
 		var subid = '7';
 		var subsubid = '19';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3538,8 +3531,8 @@ function addscore19() {
 		var subid = '7';
 		var subsubid = '20';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3567,8 +3560,8 @@ function addscore20() {
 		var subid = '7';
 		var subsubid = '21';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3596,8 +3589,8 @@ function addscore21() {
 		var subid = '7';
 		var subsubid = '22';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3625,8 +3618,8 @@ function addscore22() {
 		var subid = '8';
 		var subsubid = '23';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3654,8 +3647,8 @@ function addscore23() {
 		var subid = '8';
 		var subsubid = '24';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3683,8 +3676,8 @@ function addscore24() {
 		var subid = '8';
 		var subsubid = '25';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3713,8 +3706,8 @@ function addscore25() {
 		var subid = '8';
 		var subsubid = '26';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3742,8 +3735,8 @@ function addscore26() {
 		var subid = '8';
 		var subsubid = '27';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3771,8 +3764,8 @@ function addscore27() {
 		var subid = '8';
 		var subsubid = '28';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3801,8 +3794,8 @@ function addscore28() {
 		var subid = '9';
 		var subsubid = '29';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3831,8 +3824,8 @@ function addscore29() {
 		var subid = '9';
 		var subsubid = '30';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3860,8 +3853,8 @@ function addscore30() {
 		var subid = '9';
 		var subsubid = '31';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3889,8 +3882,8 @@ function addscore31() {
 		var subid = '9';
 		var subsubid = '32';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3918,8 +3911,8 @@ function addscore32() {
 		var subid = '9';
 		var subsubid = '33';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3946,8 +3939,8 @@ function addscore33() {
 		var subid = '9';
 		var subsubid = '34';
 		$.ajax({
-    url: "addnewviewscore.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    //url: "addnewviewscore.php",
+	url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {notes : notes, batches : batches, points : points,  uid : uid, number : number, subid : subid, subsubid : subsubid, dates : dates},
     dataType: 'json',
@@ -3974,7 +3967,7 @@ function edit() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4003,8 +3996,7 @@ function edit1() {
 		var subsubid = '2';
 		
 		$.ajax({
-    url: "editnotes.php",
-	//url: "http://referalinst.co.in/addnewviewscore.php",
+    url: "http://referalinst.co.in/editnotes.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
     dataType: 'json',
@@ -4031,7 +4023,7 @@ function edit2() {
 		var subsubid = '3';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4059,7 +4051,7 @@ function edit3() {
 		var subsubid = '3';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4086,7 +4078,7 @@ function edit4() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4113,7 +4105,7 @@ function edit5() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4140,7 +4132,7 @@ function edit6() {
 		var subsubid = '2';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4167,7 +4159,7 @@ function edit7() {
 		var subsubid = '3';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4194,7 +4186,7 @@ function edit8() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4221,7 +4213,7 @@ function edit9() {
 		var subsubid = '2';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4249,7 +4241,7 @@ function edit10() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4276,7 +4268,7 @@ function edit11() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4304,7 +4296,7 @@ function edit12() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4331,7 +4323,7 @@ function edit13() {
 		var subsubid = '2';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4358,7 +4350,7 @@ function edit14() {
 		var subsubid = '3';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4385,7 +4377,7 @@ function edit15() {
 		var subsubid = '4';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4412,7 +4404,7 @@ function edit16() {
 		var subsubid = '5';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4439,7 +4431,7 @@ function edit17() {
 		var subsubid = '6';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4466,7 +4458,7 @@ function edit18() {
 		var subsubid = '7';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4493,7 +4485,7 @@ function edit19() {
 		var subsubid = '8';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4520,7 +4512,7 @@ function edit20() {
 		var subsubid = '9';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4547,7 +4539,7 @@ function edit21() {
 		var subsubid = '10';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4574,7 +4566,7 @@ function edit22() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4601,7 +4593,7 @@ function edit23() {
 		var subsubid = '2';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4628,7 +4620,7 @@ function edit24() {
 		var subsubid = '3';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4655,7 +4647,7 @@ function edit25() {
 		var subsubid = '4';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4682,7 +4674,7 @@ function edit26() {
 		var subsubid = '5';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4709,7 +4701,7 @@ function edit27() {
 		var subsubid = '6';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
 	//url: "http://referalinst.co.in/addnewviewscore.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
@@ -4736,7 +4728,7 @@ function edit28() {
 		var subsubid = '1';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
     dataType: 'json',
@@ -4762,7 +4754,7 @@ function edit29() {
 		var subsubid = '2';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
     dataType: 'json',
@@ -4788,7 +4780,7 @@ function edit30() {
 		var subsubid = '3';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
     dataType: 'json',
@@ -4814,7 +4806,7 @@ function edit31() {
 		var subsubid = '4';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
     dataType: 'json',
@@ -4840,7 +4832,7 @@ function edit32() {
 		var subsubid = '5';
 		
 		$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
     dataType: 'json',
@@ -4860,12 +4852,13 @@ function edit32() {
 function edit33() {
 	
 		var rnotes = document.getElementById('rnotes').value;
+		
 		var uid = window.localStorage["id"];	
 		var subid = '9';
 		var subsubid = '6';
 		
 	$.ajax({
-    url: "editnotes.php",
+    url: "http://referalinst.co.in/editnotes.php",
     type: 'POST',
     data: {rnotes : rnotes, uid : uid, subid : subid, subsubid : subsubid},
     dataType: 'json',
@@ -4891,7 +4884,7 @@ function addbatch() {
 		var user = document.getElementById('user').value;
 	
 		$.ajax({
-    url: "addbatch1.php",
+    url: "http://referalinst.co.in/addbatch1.php",
     type: 'POST',
     data: {batchname: batchname, uid : uid, txtDate : txtDate, user : user },
     dataType: 'json',
@@ -4912,7 +4905,7 @@ function addbatch() {
 function views(ar) {
 		//alert(ar);
 		$.ajax({
-    url: "newview.php",
+    url: "http://referalinst.co.in/newview.php",
 	
     type: 'POST',
     data: {ar : ar},
@@ -5685,7 +5678,7 @@ function views(ar) {
 function views1(ar) {
 		//alert(ar);
 		$.ajax({
-    url: "newview.php",
+    url: "http://referalinst.co.in/newview.php",
 	
     type: 'POST',
     data: {ar : ar},
